@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Executive Analytics Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Analytics Workspace</h1>
+      <button type="button">Export Report</button>
+    </header>
+
+    <main>
+      <aside>
+        <h2>Filters</h2>
+        <form>
+          <label for="range">Time Period</label>
+          <select id="range">
+            <option>Last 7 days</option>
+            <option>Last 30 days</option>
+            <option>Last 90 days</option>
+          </select>
+
+          <label for="channel">Marketing Channel</label>
+          <select id="channel">
+            <option>All channels</option>
+            <option>Organic Search</option>
+            <option>Paid Advertising</option>
+          </select>
+        </form>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUlzFZ341ZOlib75ghSyduBU03pxyGaA8Qqw&s" alt="Decorative Element">
+      </aside>
+
+      <div class="content-area">
+        <section>
+          <h2>Key Metrics</h2>
+          <div class="metrics-container">
+            <article>
+              <h3>Visitors</h3>
+              <p>42,100</p>
+            </article>
+            <article>
+              <h3>Conversion</h3>
+              <p>3.8%</p>
+            </article>
+            <article>
+              <h3>Bounce Rate</h3>
+              <p>28%</p>
+            </article>
+          </div>
+        </section>
+
+        <section>
+          <h2>Top Performance Pages</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Page Resource</th>
+                <th>Views</th>
+                <th>Conversion</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Homepage Index</td>
+                <td>18,400</td>
+                <td>4.2%</td>
+              </tr>
+              <tr>
+                <td>Premium Pricing</td>
+                <td>8,120</td>
+                <td>6.1%</td>
+              </tr>
+              <tr>
+                <td>Editorial Blog</td>
+                <td>5,900</td>
+                <td>1.9%</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
